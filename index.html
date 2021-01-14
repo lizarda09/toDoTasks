@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>ToDo list</h1>
+        </div>
+
+        <div class="form-group text-right">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalAddTask"><i class="glyphicon glyphicon-plus"></i>Add task</button>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="active"><a href="#todo" data-toggle="tab">To do</a></li>
+            <li><a href="#inprogress" data-toggle="tab">In progress</a></li>
+            <li><a href="#done" data-toggle="tab">Done</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="todo">
+                <ul class="list-group" data-status="1"></ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="inprogress">
+                <ul class="list-group" data-status="2"></ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="done">
+                <ul class="list-group" data-status="3"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalAddTask" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Add task</h4>
+                </div>
+
+                <div class="modal-body">
+                    <form id="formAddTask">
+                        <div class="form-group">
+                            <input type="text" name="title" placeholder="Title" autofocus="true" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    <button class="btn btn-success" form="formAddTask">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js" type="module" ></script>
+</body>
+</html>
