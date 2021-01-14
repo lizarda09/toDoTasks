@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82d4bf59-d205-4651-b6e6-a9003c981a99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../06.11.2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06.11.2020/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11.12.2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../11.12.2020/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.11.20/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16.11.20/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.11.20/task7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../16.11.20/task7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/Canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/Warrior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/img/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/img/man2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/img/man3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/swap/swapIndex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18.12.2020/swap/swapMain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../23.11.2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../23.11.2020/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.12.2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.12.2020/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.12.2020/task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../4.12.2020/task2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diploma_site/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mvTh3XmWNjGhLiKzKsNgry52gd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82d4bf59-d205-4651-b6e6-a9003c981a99" name="Default Changelist" comment="" />
+      <created>1610373181210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610373181210</updated>
+      <workItem from="1610373182524" duration="3215000" />
+      <workItem from="1610452974212" duration="5569000" />
+      <workItem from="1610577113552" duration="8233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610455878601">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834/1920.56.1344.810@0.30.1536.834" timestamp="1610455878601" />
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1610580631858">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834/1920.56.1344.810@0.30.1536.834" timestamp="1610580631858" />
+  </component>
+</project>
