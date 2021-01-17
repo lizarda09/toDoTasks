@@ -7,6 +7,10 @@ export function addTask(task){
         .text(task.title);
 }
 
+export function removeLocalStorage(){
+    localStorage.clear();
+}
+
 export function handleFormAddTask(event) {
     event.preventDefault();
 

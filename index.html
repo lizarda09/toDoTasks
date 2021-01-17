@@ -18,6 +18,7 @@
 
         <div class="form-group text-right">
             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalAddTask"><i class="glyphicon glyphicon-plus"></i>Add task</button>
+            <button type="button" id="removeAll" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#removeAll"><i class="glyphicon glyphicon-remove"></i>Remove all</button>
         </div>
 
         <ul class="nav nav-tabs" role="tablist">
@@ -59,6 +60,20 @@
                     <button class="btn btn-success" form="formAddTask">Ok</button>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="panel panel-danger col-md-3">
+            <div class="panel-heading">Should be done</div>
+            <div class="panel-body">Tasks count: <a href="#" class="badge badge-secondary">9</a></div>
+        </div>
+        <div class="panel panel-warning col-md-3 col-md-offset-1">
+            <div class="panel-heading">Will be done soon</div>
+            <div class="panel-body">Tasks count: <a href="#" class="badge badge-secondary">0</a></div>
+        </div>
+        <div class="panel panel-success col-md-3 col-md-offset-1">
+            <div class="panel-heading">Already done</div>
+            <div class="panel-body">Tasks count: <a href="#" class="badge badge-secondary">0</a></div>
         </div>
     </div>
 
