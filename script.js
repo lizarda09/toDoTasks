@@ -1,4 +1,4 @@
-import {addTask} from "./functions.js";
+import {addTask, countOfTasks} from "./functions.js";
 import {handleFormAddTask} from "./functions.js";
 import {$formAddTask, $removeAll} from "./constants.js";
 import {removeLocalStorage} from "./functions.js";
@@ -14,3 +14,4 @@ for(let key in localStorage) {
         task && addTask(task);
     }
 }
+countOfTasks();

@@ -9,6 +9,14 @@ export function addTask(task){
 
 export function removeLocalStorage(){
     localStorage.clear();
+    window.location.reload();
+    $('<span>').appendTo('[class="badge badge-secondary"]').text(localStorage.length);
+
+}
+
+export function countOfTasks(){
+    $('span').empty();
+    $('<span>').appendTo('[class="badge badge-secondary toDo"]').text(localStorage.length);
 }
 
 export function handleFormAddTask(event) {
@@ -24,4 +32,5 @@ export function handleFormAddTask(event) {
     localStorage.setItem(newTask.id, JSON.stringify(newTask));
     $modalAddTask.modal('hide');
     this.reset();
+    countOfTasks();
 }
