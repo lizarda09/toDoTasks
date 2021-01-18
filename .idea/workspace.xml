@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -37,10 +40,9 @@
       <change beforePath="$PROJECT_DIR$/../18.12.2020/swap/swapMain.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../23.11.2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../23.11.2020/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4.12.2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.12.2020/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4.12.2020/task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../4.12.2020/task2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../diploma_site/index.html" beforeDir="false" />
@@ -87,7 +89,7 @@
       <workItem from="1610577113552" duration="8233000" />
       <workItem from="1610638406379" duration="2496000" />
       <workItem from="1610708890816" duration="595000" />
-      <workItem from="1610804125334" duration="12309000" />
+      <workItem from="1610804125334" duration="18673000" />
     </task>
     <servers />
   </component>
@@ -111,9 +113,9 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834/1920.56.1344.810@0.30.1536.834" timestamp="1610455878601" />
-    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1610580631858">
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1610925419990">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834/1920.56.1344.810@0.30.1536.834" timestamp="1610580631858" />
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834/1920.56.1344.810@0.30.1536.834" timestamp="1610925419990" />
   </component>
 </project>

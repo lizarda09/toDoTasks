@@ -1,10 +1,15 @@
 import {statuses, $modalAddTask} from "./constants.js";
 
 export function addTask(task){
+    const $btnDelete = $('<button>').addClass('btn btn-danger btn-xs pull-right btn-delete').html('<i class="glyphicon glyphicon-trash"></i>');
+    const $btnEdit = $('<button>').addClass('btn btn-warning btn-xs pull-right btn-edit').html('<i class="glyphicon glyphicon-pencil"></i>');
     $('<li>')
         .appendTo(`[data-status="${task.status}"]`)
         .addClass('list-group-item')
-        .text(task.title);
+        .text(task.title)
+        .append($btnDelete)
+        .append($btnEdit)
+        .attr('data-id', task.id);
 }
 
 export function removeLocalStorage(){
@@ -33,4 +38,12 @@ export function handleFormAddTask(event) {
     $modalAddTask.modal('hide');
     this.reset();
     countOfTasks();
+}
+
+export function handleBtnDel(event){
+    const $parent = $(this).parents('[data-id]');
+    const id = $parent.attr('data-id');
+
+    $parent.remove();
+    localStorage.removeItem(id);
 }
