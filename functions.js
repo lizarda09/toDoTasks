@@ -3,7 +3,15 @@ import {statuses, $modalAddTask, $modalEditTask, $formEditTask, $dateTimePicker1
 export function addTask(task){
     const $btnDelete = $('<button>').addClass('btn btn-danger btn-xs pull-right btn-delete').html('<i class="glyphicon glyphicon-trash"></i>');
     const $btnEdit = $('<button>').addClass('btn btn-warning btn-xs pull-right btn-edit').html('<i class="glyphicon glyphicon-pencil"></i>');
-    const $btnMore = $('<button>').addClass('btn btn-default btn-xs pull-right btn-more').html('<i class="glyphicon glyphicon-option-horizontal"></i>');
+    const $btnMore = $('<button>')
+        .addClass('btn btn-default btn-xs pull-right btn-more')
+        .html('<i class="glyphicon glyphicon-option-horizontal"></i>')
+        .attr('data-target', '#'+task.id)
+        .attr('data-toggle', "collapse");
+    const $more = $('<div>')
+        .addClass("collapse")
+        .attr('id', task.id)
+        .text(task.date+" "+task.desc)
     $('<li>')
         .appendTo(`[data-status="${task.status}"]`)
         .addClass('list-group-item')
@@ -11,6 +19,7 @@ export function addTask(task){
         .append($btnDelete)
         .append($btnEdit)
         .append($btnMore)
+        .append($more)
         .attr('data-id', task.id);
 }
 
@@ -48,8 +57,8 @@ export function handleFormAddTask(event) {
         title: $('[name="title"]', this).val(),
         status: statuses.TODO, //1 - to do, 2 - inprogress, 3 - done
         id: new Date().getTime(),
-        date: $dateTimePicker1.val(),
-        desc: $textarea
+        date: $dateTimePicker1.find('[type="date"]').val(),
+        desc: $textarea.val()
     };
     if(newTask.title===''){
         alert('Title is required!');
